@@ -2,7 +2,7 @@ var numero = parseInt(prompt("inserisci un numero di 4 cifre"));
 
 var somma_delle_cifre = 0;
 
-while(numero > 0){
+while(numero > 0 && numero <= 9999){
     cifre = numero % 10;
     somma_delle_cifre += cifre;
     numero = (numero - cifre) /10;
